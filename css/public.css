@@ -1,0 +1,264 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none !important;
+}
+.color {
+	color: #00BCFF !important;
+}
+.navbar{
+	border-bottom: 1px solid #C0C0C0 !important;
+}
+.banner{
+	margin-top: 135px;
+}
+.D1 .top {
+	border-bottom: 2px solid #CCCCCC;
+}
+
+#hr {
+	border-bottom: 1px solid #D5D5D5;
+}
+
+.p1 {
+	line-height: 40px;
+	text-indent: 15px;
+	color: #00bcff;
+	background: url(../images/a.png) no-repeat 0px 12px;
+}
+
+.nav {
+	height: 92px;
+	position: relative;
+	transition: 0.5s;
+	padding-top: 20px;
+	margin-left: 100px;
+}
+
+.nav>a {
+	position: absolute;
+	left: 80px;
+	top: 20%;
+}
+
+.bc {
+	width: 32px;
+	height: 2px;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	background-color: #00aaff;
+	left: 0;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.bottom {	
+	color: #94998d;
+	overflow: hidden;
+	position: relative;
+	background-color: #111111;
+}
+
+.bottom>.top {
+	margin: 45px auto;
+}
+
+.bottom>.top>.left {
+	padding-left: 50px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.bottomP {
+	margin-bottom: 30px;
+	color: font-size: 18px;
+	color: #00aaff;
+	transition: 1s;
+}
+
+.bottom>.top>.left>ul>li {
+	margin-top: 15px;
+}
+
+.bottom>.top>.left>ul>li:nth-of-type(5) {
+	width: 100px;
+}
+
+.bottom>.top>.left>ul>li>a {
+	color: #999999;
+	display: inline-block;
+}
+
+.bottom>.top>.left>ul>li:after {
+	content: "";
+	display: block;
+	width: 0px;
+	height: 2px;
+	margin-top: 10px;
+	background-color: #00aaff;
+	transition: 0.5s;
+}
+
+.bottom>.top>.left>ul>li:hover a {
+	color: #00aaff;
+}
+
+.bottom>.top>.left>ul>li:hover:after {
+	width: 63px;
+}
+
+.bottom>.top>.left>ul>li:nth-of-type(5):hover:after {
+	width: 100px;
+}
+
+.bottom>.top>.center {
+	float: left;
+}
+
+.bottom>.top>.center dl {
+	padding-left: 80px;
+	margin-bottom: 36px;
+	height: 70px;
+	display: block;
+}
+
+.bottom>.top>.center dl>dt {
+	font-size: 30px;
+	color: #999999;
+	margin-bottom: 12px;
+}
+
+.bottom>.top>.center dl>dd {
+	font-size: 14px;
+	color: #999999;
+	margin-bottom: 12px;
+}
+
+.bottom>.top>.center dl:nth-of-type(1) {
+	background: url(../images/I3.jpg) no-repeat;
+}
+
+.bottom>.top>.center dl:nth-of-type(2) {
+	background: url(../images/I4.jpg) no-repeat;
+}
+
+.bottom>.top>.center dl:nth-of-type(3) {
+	background: url(../images/I5.png) no-repeat;
+}
+
+.bottom>.top>.center dl:nth-of-type(4) {
+	background: url(../images/I6.png) no-repeat;
+}
+
+.bottom>.top>.right {
+	width: 290px;
+	float: right;
+}
+
+.bottom>.top>.right>.img {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.bottom>.top>.right>.img>img {
+	margin-right: 30px;
+	float: left;
+}
+
+.bottom>.top>.right>.pp {
+	font-size: 16px;
+	color: #999999;
+	margin-top: 42px;
+	line-height: 32px;
+}
+
+.bottom>.top>.right>.pp>a {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	vertical-align: top;
+	margin-left: 14px;
+}
+
+.bottom>.top>.right>.pp>a:nth-of-type(1) {
+	background: url(../images/A1.png) no-repeat;
+}
+
+.bottom>.top>.right>.pp>a:nth-of-type(2) {
+	background: url(../images/a22.png) no-repeat;
+}
+
+.bottom>.friendLink {
+	width: 1200px;
+	position: relative;
+	bottom: 20px;
+	z-index: 55;
+}
+
+.bottom>.friendLink>dl>dt {
+	float: left;
+	width: 50px;
+	font-size: 8px;
+	line-height: 30px;
+	color: #666666;
+}
+
+.bottom>.friendLink>dl>dd:nth-of-type(1) {
+	float: left;
+	width: 94%;
+	height: 20px;
+	overflow: hidden;
+	color: #666666;
+	font-size: 8px;
+	transition: 0.5s;
+}
+
+.bottom>.friendLink>dl>dd>a {
+	padding: 0 9px;
+	font-size: 12px;
+	color: #999;
+	height: 20px;
+	line-height: 20px;
+	border-right: 1px solid #999;
+}
+
+.bottom>.friendLink>dl>dd>button {
+	height: 20px;
+	width: 20px;
+	float: right;
+	position: absolute;
+	margin-right: -90px;
+	margin-top: 5px;
+	background: url(../images/llinksIcon.jpg) no-repeat;
+	border: none;
+	outline: none;
+}
+
+.bottom .down {
+	border-top: 1px solid #1c1c1c;
+	line-height: 78px;
+	height: 78px;
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.bottom .down .b1 {
+	float: left;
+	font-size: 12px;
+	color: #666666;
+}
+
+.bottom .down .b2 {
+	float: right;
+	color: #666666;
+	font-size: 12px;
+}
+
+.bottom .down .b2>i {
+	width: 50px;
+	height: 25px;
+	display: inline-block;
+	background: url(../images/c1.png) no-repeat center;
+}

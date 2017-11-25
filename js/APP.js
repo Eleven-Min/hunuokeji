@@ -1,0 +1,24 @@
+$(function(){
+	$(".D5>ul>li").mouseover(function(){
+		$(this).children("h4").css("top","-30px")
+		$(this).children("a").css({"bottom":0})
+	}).mouseout(function(){
+		$(this).children("h4").css("top","0px")
+		$(this).children("a").css({"bottom":"-68px"})
+	})
+	$(".D5>ul>li>a").mouseover(function(){
+		$(this).css({
+			"background-color":"#00aaff",
+			"color":"#fff"
+		})		
+	}).mouseout(function(){
+		$(this).css({
+			"background-color":"#fff",
+			"color":"#000"
+		})		
+	})
+	$(".bd>div").click(function(){		
+		$(".hd>div").eq($(this).index()).css("display","block").siblings().css("display","none")
+	})
+	
+})

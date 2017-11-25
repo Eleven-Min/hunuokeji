@@ -1,0 +1,237 @@
+#menu {
+	position: fixed;
+	top: 30%;
+	right: 60px;
+	z-index: 2;
+}
+
+#menu ul {
+	padding-right: 30px;
+	border-right: 1px dashed #fff;
+	transition: all .4s;
+}
+
+#menu ul li {
+	width: 120px;
+	text-align: right;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#menu li.active:after {
+	width: 15px;
+	height: 14px;
+	border-radius: 50%;
+	background: #fff;
+	content: '';
+	display: block;
+	position: absolute;
+	right: -37px;
+	top: 4px;
+	transition: all .4s;
+	-webkit-transition: all .4s;
+}
+
+#menu ul li a {
+	font-size: 12px;
+	color: #fff;
+	font-family: "微软雅黑";
+	transition: all .4s;
+}
+body{
+	position:relative;
+}
+section{
+	position:relative;
+	top:0px;
+	left:0px;
+}
+section>div{
+	width:100%;
+	height:535px;
+	position:relative;
+}
+.bg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+section>div>.wrap{
+	width: 1200px;
+	height: 535px;
+	margin: 0 auto;
+}
+.screen1 .phone {
+	position: absolute;
+	width: 400px;
+	height: 100px;
+	background: url(../images/page1_1.png) no-repeat center;
+	background-size: 85%;
+	top: 45%;
+	left: 35%;
+}
+
+.kfapp {
+	position: absolute;
+	width: 440px;
+	height: 70px;
+	background: url(../images/page1_3.png) no-repeat center;
+	background-size: 75%;
+	top: 35px;
+	left: 35%;
+	z-index: 55;
+}
+
+.screen1 .box {
+	position: absolute;
+	width: 500px;
+	height: 250px;
+	top: 0;
+	left: 0;
+	margin-top: 80px;
+	margin-left: 400px;
+	background: url(../images/page1_2.png) no-repeat center;
+	background-size: cover;
+}
+
+.coord {
+	width: 100%;
+	position: relative;
+	bottom: 0;
+}
+
+.coord>a {
+	display: block;
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 70%;
+}
+
+.bb-1 {
+	background-image: url(../images/page1_4.png);
+	left: 200px;
+	top: 200px;
+}
+
+.bb-2 {
+	background-image: url(../images/page1_5.png);
+	left: 350px;
+	top: 230px;
+}
+
+.bb-3 {
+	background-image: url(../images/page1_6.png);
+	left: 380px;
+	top: 160px;
+}
+
+.bb-4 {
+	background-image: url(../images/page1_7.png);
+	left: 650px;
+	top: 220px;
+}
+
+.bb-5 {
+	background-image: url(../images/page1_8.png);
+	left: 550px;
+	top: 230px;
+}
+
+.bb-6 {
+	background-image: url(../images/page1_9.png);
+	left: 880px;
+	top: 165px;
+}
+
+.bb-7 {
+	background-image: url(../images/page1_10.png);
+	left: 980px;
+	top: 200px;
+}
+
+.bb-8 {
+	background-image: url(../images/page1_11.png);
+	left: 750px;
+	top: 190px;
+}
+
+.bb-9 {
+	background-image: url(../images/page1_12.png);
+	left: 800px;
+	top: 250px;
+}
+.screen2>div>.left {
+	float: left;
+	width: 50%;
+	height: 356px;
+	border: 1px solid #fff;
+}
+
+.app-yd {
+	width: 400px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	background: url(../images/page2-1.png) no-repeat 250px 180px;
+	background-size: 50%;
+}
+
+.app-yd>div {
+	position: absolute;
+}
+
+.yd-1 {
+	width: 30px;
+	height: 30px;
+	left: 200px;
+	background-image: url(../images/page2_7.png);
+}
+
+
+/*.main>div:nth-of-type(1){
+	background:url(../images/bg_1.jpg) no-repeat center;
+	background-size: cover;
+}
+.main>div:nth-of-type(2){
+	background-color: #f2684c;
+}
+
+.main>div:nth-of-type(3){
+	background-color:#3ec6ae;
+}
+
+.main>div:nth-of-type(4){
+	background-color: #ffb329;
+}
+
+.main>div:nth-of-type(5){
+	background-color: #e3493d;
+}
+
+.main>div:nth-of-type(6){
+	background-color: #01b760;
+}
+
+.main>div:nth-of-type(7){
+	background-color: #fda73a;
+}
+
+.main>div:nth-of-type(8){
+	background-color: #4987d2;
+}
+
+.main>div:nth-of-type(9){
+	background-color: #fdd13d;
+}
+.main>div:nth-of-type(10){
+	background-color: #7d5ee8;
+}
+.main>div:nth-of-type(11){
+	background: ;
+}
+
+
+*/
